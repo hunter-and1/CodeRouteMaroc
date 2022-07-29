@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.hunterand1.coderoutemaroc.StartExameActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            android:background="#ce0000"
+            android:baselineAligned="false"
+            android:gravity="right">
+
+            <ImageView
+                android:layout_height="match_parent"
+                ads:srcCompat="@android:drawable/ic_menu_share"
+                android:id="@+id/imageViewPartage"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:padding="4dp"
+                android:layout_width="35dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/app_name"
+                android:id="@+id/textView3"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_launcher"
+                android:padding="5dp"
+                android:id="@+id/imageView" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/ha_desc_result"
+            android:id="@+id/textView6"
+            android:layout_gravity="center_horizontal|top"
+            android:textAlignment="center"
+            android:singleLine="false"
+            android:longClickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/Note"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0"
+            android:textColor="#d61518" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0">
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:dividerHeight="10sp"
+                android:id="@+id/listView"/>
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id"
+                android:layout_weight="0">
+            </com.google.android.gms.ads.AdView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

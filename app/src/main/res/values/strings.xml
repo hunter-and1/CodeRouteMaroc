@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">سلسلات سيارة تعليم بالمغرب</string>
+    <string name="ha_done">موافق</string>
+    <string name="ha_cancel">إلغاء</string>
+    <string name="ha_pause">توقيف</string>
+    <string name="ha_play">عودة</string>
+    <string name="ha_back">رجوع</string>
+    <string name="ha_start_exame">إبدأ الإمتحان</string>
+    <string name="ha_number_q"> سؤال رقم </string>
+    <string name="ha_desc_list_series">يعلمك التطبيق قانون السير بالمغرب وإشارات وعلامات المرور هذا التطبيق هو بمثابة
+مدرسة تعليم السياقة بالمغرب لاجتياز رخصة السياقة</string>
+    <string name="ha_desc_result">إنقر على السؤال لإنتقال لصفحة سؤال ومراجعته مع تصحيح.</string>
+    <string name="ha_desc_start_exame">لديك مجموعة من الأسئلة لإجابة عليها ولديك 25 ثانية لإجابة على كل سؤال. \n \n حــظ موفــق.</string>
+
+    <string name="ha_share">مشاركة التطبيق</string>
+    <string name="ha_rate">تقييم التطبيق</string>
+    <string name="ha_list">إختبارات</string>
+    <string name="ha_list_random">سلسلة عشوائية</string>
+
+    <string name="app_id">ca-app-pub-1453109991157527~2412587690</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1453109991157527/5366054099</string>
+    <string name="inter_ad_id">ca-app-pub-1453109991157527/8319520493</string>
+    <string name="interstitial_count">5</string>
+    <string name="times_question">25</string>
+
+</resources>
